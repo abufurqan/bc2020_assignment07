@@ -1,13 +1,14 @@
 .App {
   padding: 20px;
+  width: 450px;
+  color: gray;
 }
 
 a1 {
   display: block;
 }
 
-h2 {
-  color: gray;
+h3 {
 }
 
 a {
@@ -16,7 +17,7 @@ a {
 }
 
 ol {
-  max-width: 250px;
+  width: auto;
   list-style-type: none;
   padding: 0;
 }
@@ -25,9 +26,8 @@ ol li {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  margin: 5px auto;
-  text-align: center;
-  box-shadow: inset 0 0 10px #ccc;
+  margin: 15px auto;
+  box-shadow: inset 0 0 10px #ccc;;
 }
 
 ol li:hover {
@@ -35,5 +35,7 @@ ol li:hover {
 }
 
 ol a{
-  color: black;
+  color: green;
+  font-size: 30px;
+  line-height: 50px;
 }
