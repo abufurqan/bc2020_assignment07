@@ -18,7 +18,7 @@ function App() {
       // Outputs as "February 17, 2017"
       //const formattedDate = Moment(date).format("LL");
 
-      console.log(data);
+      //console.log(data);
       setRepos(data)
     }
     getRepos();
