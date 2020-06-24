@@ -26,13 +26,13 @@ function App() {
 
   return (
     <div className="App">
-      <h2>You are seeing all of my repositories</h2>
-      <h3>you can see all my repositories by clicking here <a href="https://github.com/abufurqan?tab=repositories" target="_blank">Fiaz Ahmed</a></h3>
+      <h2>You are seeing all of my repositories <br />
+        check it a github by clicking my name <a href="https://github.com/abufurqan?tab=repositories" target='_blank'>Fiaz Ahmed</a></h2>
       <h4>or click any of the below repository to open it in a new tab</h4>
     
       <ol>
         {repos.map((repoObj, ind) => {
-          return (<a href={repoObj.svn_url} target="_blank"><li key={ind}>{repoObj.name} </li></a>)
+          return (<a href={repoObj.svn_url} target='_blank'><li key={ind}>{repoObj.name} </li></a>)
         })}
       </ol>
     </div>

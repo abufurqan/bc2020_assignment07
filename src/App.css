@@ -2,6 +2,10 @@
   padding: 20px;
 }
 
+a1 {
+  display: block;
+}
+
 h2 {
   color: gray;
 }
@@ -9,15 +13,19 @@ h2 {
 a {
   text-decoration: none;
   color: green;
-  target: _blank;
+}
+
+ol {
+  max-width: 250px;
+  list-style-type: none;
+  padding: 0;
 }
 
 ol li {
   padding: 5px;
   border: 1px solid #ccc;
   border-radius: 10px;
-  width: 200px;
-  margin: 5px 10px;
+  margin: 5px auto;
   text-align: center;
   box-shadow: inset 0 0 10px #ccc;
 }
