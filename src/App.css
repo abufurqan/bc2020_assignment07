@@ -1,19 +1,14 @@
 .App {
   padding: 20px;
   width: 450px;
-  color: gray;
-}
-
-a1 {
-  display: block;
-}
-
-h3 {
+  color: #778899;
+  text-align: center;
+  margin: 0 auto;
 }
 
 a {
   text-decoration: none;
-  color: green;
+  color: #0000CD;
 }
 
 ol {
@@ -35,7 +30,7 @@ ol li:hover {
 }
 
 ol a{
-  color: green;
+  color: #0000CD;
   font-size: 30px;
   line-height: 50px;
 }
